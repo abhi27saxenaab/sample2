@@ -1,0 +1,9 @@
+# Run migrations again
+npx sequelize-cli db:migrate
+
+# Seed the database
+npx sequelize-cli db:seed:all
+
+# Undo all migrations
+npx sequelize-cli db:migrate:undo:all
+
